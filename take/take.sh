@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 SNAP_DIR=/home/rfocosi/smbrepo/
 SNAP_PREFIX=snap
 SNAP_ID=`date '+%Y%m%d-%H%M%S'`
