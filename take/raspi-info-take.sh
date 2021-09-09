@@ -54,9 +54,8 @@ while true; do
 
   if [ $count -ge $bar_size ]; then
   	/home/rfocosi/bin/take.sh
-	count=0
+    count=0
   fi
 
   echo "\033[0;30m"
 done
-
