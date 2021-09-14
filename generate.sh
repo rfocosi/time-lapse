@@ -3,7 +3,9 @@ DIR=$1
 
 [ -z "$DIR" ] && echo "Missing parameter: target directory" && exit 1
 
-FILE_MASK=`./file_mask.sh`
+eval "$( cat time-lapse.config )"
+
+[ -z "$FILE_MASK" ] && echo "Missing config: FILE_MASK" && exit 2
 
 mkdir -p output
 
